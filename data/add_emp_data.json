@@ -1,0 +1,48 @@
+[
+  {
+    "desc": "必选参数-添加成功",
+    "req_data": {
+      "username": "user87655430",
+      "mobile": "18648390001",
+      "workNumber": "9527890aa"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "desc": "全部参数-添加成功",
+    "req_data": {
+      "username": "齐天小圣朱小姐001",
+      "mobile": "18648390001",
+      "timeOfEntry": "2022-02-01",
+      "formOfEmployment": 1,
+      "workNumber": "9009",
+      "departmentName": "研发部",
+      "departmentId": "1480198742740082688",
+      "correctionTime": "2022-02-27T16:00:00.000Z"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "desc": "用户名为空",
+    "req_data": {
+      "username": null,
+      "mobile": "18648390001",
+      "timeOfEntry": "2022-02-01",
+      "formOfEmployment": 1,
+      "workNumber": "9009",
+      "departmentName": "研发部",
+      "departmentId": "1480198742740082688",
+      "correctionTime": "2022-02-27T16:00:00.000Z"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20002,
+    "message": "新增员工失败"
+  }
+]
